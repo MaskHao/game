@@ -1,0 +1,61 @@
+
+*{margin: 0;padding: 0;}
+.curved {
+   width:180px; 
+   margin:100px auto;
+   }
+#menu {
+   font-size:12px;
+   height:380px;
+   width:180px;
+   overflow:hidden; 
+   list-style:none;
+   border:1px solid #DDD; 
+}
+#menu li a {
+   display:block; 
+   text-decoration:none; 
+   margin:0; 
+   width:100%;
+   }
+#menu li a span {
+   display:none; 
+   color:#000;
+   height:120px;
+   overflow: hidden;
+   }
+
+#menu li a:hover span {
+   display:block; 
+   margin:0 10px; 
+   /*cursor 属性规定所显示的指针（光标）的类型。*/
+   cursor:pointer;
+}
+#menu .h2 {
+   margin-left: 10px;
+   color:#808; 
+   /*把段落设置为小型大写字母字体：*/
+   font-variant:small-caps; 
+   }
+.curved .b1, .curved .b2 {
+   display:block; 
+   background:#88c;
+   overflow: hidden;
+   height:1px;
+   }
+.curved .b2 {
+   background:#f0f0f0; 
+   }
+.curved .b1 {
+   margin:0 4px; 
+   background:#DDD;
+   }
+.curved .b2 {
+   margin:0 2px; 
+   /*设置四个边框的宽度：*/
+   border-width:0 2px;
+   }
+   
+   #mouse{
+   	cursor:pointer;
+   }
