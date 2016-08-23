@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<button id="btn1">开始</button>
+	<button id="btn2">结束</button>
+</body>
+<script>
+	var bton1=document.getElementById('btn1');
+	var bton2=document.getElementById('btn2');
+	var timer = null;
+	function myFunction () {
+		 alert("zhutou");
+	}
+	bton1.onclick = function() {
+		 timer=setInterval(myFunction, 2000);
+	}
+	bton2.onclick = function() {
+		clearInterval(timer);
+	}
+</script>
+</html>
